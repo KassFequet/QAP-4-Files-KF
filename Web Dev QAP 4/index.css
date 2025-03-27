@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Courier New";
+}
+
+body {
+  background-color: plum;
+}
+
+.mainbox {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/*This is a general style that is applied to all tables*/
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+  font-family: "Courier New";
+}
+
+/*Styles that are applied to a specific table*/
+.receipttable {
+  width: 400px;
+  margin: auto;
+}
+
+.receipttable .row {
+  width: 100%; /* Ensures the row spans the full width of the table. */
+  position: relative; /* Allows text to be in a floated on left and right while on the same line */
+}
+
+.receipttable .lefttext {
+  float: left;
+}
+
+.receipttable .righttext {
+  float: right;
+}
+
+.receipttable .centertext {
+  text-align: center;
+}
